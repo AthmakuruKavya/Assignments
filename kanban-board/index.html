@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare-kanban-board</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- <h1>Patient Management Kanban Board</h1>
+    <p>Streamline hospital workflows by visually tracking patients from registration to discharge, ensuring efficiency,
+        transparency, and better care.</p> -->
+    <section id="main-container" class="main-section">
+        <div class="column" id="registration">
+            <div class="reg-column">
+                <p>Patient Registration</p>
+                <button id="reg-btn" class="reg-btn">New Entry</button>
+            </div>
+            <div id="reg-form" class="reg-form">
+
+            </div>
+        </div>
+        <div class="column" id="appointment">
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" />
+                </div>
+                <div>
+                    <label for="description">Description</label>
+                    <input type="text" id="description" />
+                </div>
+                <div>
+                    <button id="Submit-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="column" id="consultation"></div>
+        <div class="column" id="tests"></div>
+        <div class="column" id="treatment"></div>
+        <div class="column" id="recovey"></div>
+        <div class="column" id="discharge"></div>
+    </section>
+
+    <script src="./script.js"></script>
+    <script src="./script2.js"></script>
+</body>
+
+</html>
